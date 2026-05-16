@@ -43,8 +43,8 @@ const projects = [
 	},
 	{
 		title: 'Cassava',
-		url: 'https://cassava.io',
-		tag: 'Digital Platform',
+		url: 'https://casava.co',
+		tag: 'Fintech/Insurance',
 		color: 'from-emerald-300 to-lime-300',
 		description:
 			'A scalable digital product experience designed around modern business enablement and innovation.',
