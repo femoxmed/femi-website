@@ -161,7 +161,7 @@ export default function Home() {
 						<a
 							href='#work'
 							className='rounded-2xl bg-sky-300 px-7 py-4 font-bold text-slate-950 shadow-[0_0_45px_rgba(56,189,248,.35)] transition hover:-translate-y-1 hover:bg-white'>
-							View My Work
+							View My Works
 						</a>
 						{/* <a
 							href='https://artchangelives.org'
