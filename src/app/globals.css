@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #050816;
+  color: white;
+}
+
+::selection {
+  background: #38bdf8;
+  color: #020617;
+}
+
+.glass {
+  background: linear-gradient(135deg, rgba(255,255,255,0.12), rgba(255,255,255,0.04));
+  border: 1px solid rgba(255,255,255,0.14);
+  box-shadow: 0 24px 80px rgba(0,0,0,0.35);
+  backdrop-filter: blur(20px);
+}
+
+.mesh-bg {
+  background:
+    radial-gradient(circle at 15% 10%, rgba(14,165,233,0.35), transparent 26%),
+    radial-gradient(circle at 80% 12%, rgba(168,85,247,0.32), transparent 28%),
+    radial-gradient(circle at 55% 70%, rgba(245,158,11,0.16), transparent 25%),
+    linear-gradient(135deg, #020617 0%, #07111f 45%, #13082b 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #7dd3fc, #ffffff, #f0abfc, #fbbf24);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
