@@ -34,12 +34,28 @@ const projects = [
 			'A modern commerce platform supporting digital ordering, food distribution, and community-driven meat sharing.',
 	},
 	{
+		title: 'Maine Auto Parts',
+		url: 'https://maineautoparts.com/',
+		tag: 'eCommerce',
+		color: 'from-blue-300 to-cyan-200',
+		description:
+			'An automotive parts platform designed for smooth product discovery, ordering, and customer conversion.',
+	},
+	{
 		title: 'Cassava',
 		url: 'https://cassava.io',
 		tag: 'Digital Platform',
 		color: 'from-emerald-300 to-lime-300',
 		description:
 			'A scalable digital product experience designed around modern business enablement and innovation.',
+	},
+	{
+		title: 'OfficeSteroid',
+		url: 'https://officesteroid.com/',
+		tag: 'SaaS Productivity',
+		color: 'from-pink-300 to-purple-300',
+		description:
+			'A workspace and productivity platform built to improve business operations and digital collaboration.',
 	},
 	{
 		title: 'SanuCoin',
@@ -49,14 +65,7 @@ const projects = [
 		description:
 			'A blockchain-focused ecosystem for digital finance, decentralized access, and emerging market innovation.',
 	},
-	{
-		title: 'Maine Auto Parts',
-		url: 'https://maineautoparts.com/',
-		tag: 'eCommerce',
-		color: 'from-blue-300 to-cyan-200',
-		description:
-			'An automotive parts platform designed for smooth product discovery, ordering, and customer conversion.',
-	},
+
 	{
 		title: 'Rahee AI',
 		url: 'https://rahee.ai',
@@ -73,14 +82,7 @@ const projects = [
 		description:
 			'Cloud-focused technology solutions for scalable systems, infrastructure, and performance enablement.',
 	},
-	{
-		title: 'OfficeSteroid',
-		url: 'https://officesteroid.com/',
-		tag: 'SaaS Productivity',
-		color: 'from-pink-300 to-purple-300',
-		description:
-			'A workspace and productivity platform built to improve business operations and digital collaboration.',
-	},
+
 	{
 		title: 'NASK Dashboard',
 		url: 'https://app.nask.ng/dashboard/',
@@ -140,7 +142,7 @@ export default function Home() {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.7 }}>
 					<div className='mb-8 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm text-sky-100 shadow-2xl backdrop-blur-xl'>
-						<Sparkles className='h-4 w-4 text-amber-200' />
+						{/* <Sparkles className='h-4 w-4 text-amber-200' /> */}
 						Senior Software Engineer • Product & Project Leader
 					</div>
 
@@ -201,7 +203,7 @@ export default function Home() {
 								<div>
 									<p className='text-sm text-white/45'>Portfolio Snapshot</p>
 									<h2 className='font-display text-2xl font-bold'>
-										9 Selected Builds
+										Selected Builds
 									</h2>
 								</div>
 								<div className='rounded-2xl bg-gradient-to-br from-sky-300 via-fuchsia-300 to-amber-200 p-4 text-slate-950'>
