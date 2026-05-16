@@ -163,12 +163,12 @@ export default function Home() {
 							className='rounded-2xl bg-sky-300 px-7 py-4 font-bold text-slate-950 shadow-[0_0_45px_rgba(56,189,248,.35)] transition hover:-translate-y-1 hover:bg-white'>
 							View My Works
 						</a>
-						{/* <a
-							href='https://artchangelives.org'
+						<a
+							href='https://www.linkedin.com/in/oluwafemi-meduoye-9903a718b/'
 							target='_blank'
 							className='rounded-2xl border border-white/15 bg-white/10 px-7 py-4 font-bold backdrop-blur-xl transition hover:-translate-y-1 hover:bg-white/15'>
-							Art Change Lives
-						</a> */}
+							Linkedin
+						</a>
 					</div>
 
 					<div className='mt-10 grid gap-3 text-sm text-white/70 sm:grid-cols-3'>
