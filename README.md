@@ -1,6 +1,7 @@
 # Femi Meduoye Portfolio Website
 
-A complete single-page Next.js portfolio website with Tailwind CSS, Framer Motion animations, and a vibrant luxury tech theme.
+A complete single-page Next.js portfolio website with Tailwind CSS, Framer
+Motion animations, and a vibrant luxury tech theme.
 
 ## Run locally
 
@@ -20,6 +21,6 @@ npm run start
 
 ## Contact included
 
-- Email: femi@artchangelives.org
+- Email: femoxmed@gmail.com
 - Phone: +234 809 985 8115
 - Location: Lagos, Nigeria

@@ -122,7 +122,7 @@ export default function Home() {
 						</a>
 					</div>
 					<a
-						href='mailto:femi@artchangelives.org'
+						href='mailto:femoxmed@gmail.com'
 						className='rounded-full bg-white px-5 py-2 text-sm font-bold text-slate-950 transition hover:scale-105'>
 						Hire / Collaborate
 					</a>
@@ -161,20 +161,20 @@ export default function Home() {
 							className='rounded-2xl bg-sky-300 px-7 py-4 font-bold text-slate-950 shadow-[0_0_45px_rgba(56,189,248,.35)] transition hover:-translate-y-1 hover:bg-white'>
 							View My Work
 						</a>
-						<a
+						{/* <a
 							href='https://artchangelives.org'
 							target='_blank'
 							className='rounded-2xl border border-white/15 bg-white/10 px-7 py-4 font-bold backdrop-blur-xl transition hover:-translate-y-1 hover:bg-white/15'>
 							Art Change Lives
-						</a>
+						</a> */}
 					</div>
 
 					<div className='mt-10 grid gap-3 text-sm text-white/70 sm:grid-cols-3'>
 						<a
 							className='glass rounded-2xl p-4 transition hover:-translate-y-1'
-							href='mailto:femi@artchangelives.org'>
+							href='mailto:femoxmed@gmail.com'>
 							<Mail className='mb-3 h-5 w-5 text-sky-300' />
-							femi@artchangelives.org
+							femoxmed@gmail.com
 						</a>
 						<a
 							className='glass rounded-2xl p-4 transition hover:-translate-y-1'
@@ -340,7 +340,7 @@ export default function Home() {
 					</p>
 					<div className='mt-10 flex flex-wrap justify-center gap-4'>
 						<a
-							href='mailto:femi@artchangelives.org'
+							href='mailto:femoxmed@gmail.com'
 							className='rounded-2xl bg-white px-8 py-4 font-bold text-slate-950 transition hover:-translate-y-1 hover:bg-sky-200'>
 							Email Me
 						</a>
